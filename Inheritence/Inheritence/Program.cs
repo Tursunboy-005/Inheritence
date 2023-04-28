@@ -10,6 +10,9 @@ namespace Inheritence
     {
         static void Main(string[] args)
         {
+            TeslaX teslax = new TeslaX(1,2,"teslax",3);
+            teslax.Drive();
+            
         }
     }
 }
